@@ -20,9 +20,23 @@ public class details extends AppCompatActivity {
         TextView name = findViewById(R.id.detailsName);
         TextView phone = findViewById(R.id.detailsPhone);
 
+        TextView ttt = findViewById(R.id.detailsS);
+        ttt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(details.this,lastPage.class);
+                startActivity(i);
+            }
+        });
+
+
+
+
+
+
         name.setText(m.getName());
 
-        phone.setText("Phone: 24816465");
+        phone.setText("Phone");
         phone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

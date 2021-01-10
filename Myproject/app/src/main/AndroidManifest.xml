@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Myproject">
+        <activity android:name=".lastPage"></activity>
         <activity android:name=".details" />
         <activity android:name=".Colleges" />
         <activity android:name=".MainActivity">
